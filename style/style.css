@@ -294,6 +294,18 @@ nav ul li a {
     height: 50px;
 }
 
+.portfolio-link {
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+    gap: 2px;
+    color: var(--primaryTextColor);
+}
+
+.portfolio-link a {
+    padding-top: 20px;
+}
+
 /* skill and education */
 #skills {
     padding: var(--sectionPadding);
