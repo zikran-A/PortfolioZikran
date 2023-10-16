@@ -119,15 +119,20 @@ a {
 
 /* logo dan navigasi menu  */
 .nav {
+  position: fixed;
   display: flex;
+  gap: 2rem;
   justify-content: space-between;
   padding: 2rem 0;
+  height: auto;
 }
 
 .nav ul {
   list-style: none;
   display: flex;
   gap: 3rem;
+  justify-items: end;
+  align-items: center;
 }
 
 .logo {
